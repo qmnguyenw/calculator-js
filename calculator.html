@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<em><div class="title">Casio fx500ms</div></em>
+
+			<div class="calculator">
+				<!-- <div> -->
+				<input type="text" id="output" value="0" readonly="readonly" />
+				<!-- </div> -->
+
+				<div class="calculator_keys">
+					<button class="btn bracketleft" value="(">(</button>
+					<button class="btn bracketright" value=")">)</button>
+					<button class="btn clear" value="c">C</button>
+					<button class="btn backspace" value="backspace">
+						<i class="fas fa-backspace"></i>
+					</button>
+
+					<button class="btn" value="7">7</button>
+					<button class="btn" value="8">8</button>
+					<button class="btn" value="9">9</button>
+					<button class="btn divide" value="/">/</button>
+
+					<button class="btn" value="4">4</button>
+					<button class="btn" value="5">5</button>
+					<button class="btn" value="6">6</button>
+					<button class="btn multiply" value="*">*</button>
+
+					<button class="btn" value="1">1</button>
+					<button class="btn" value="2">2</button>
+					<button class="btn" value="3">3</button>
+					<button class="btn plus" value="+">+</button>
+
+					<button class="btn" value="0">0</button>
+					<button class="btn dot" value=".">.</button>
+					<button class="btn total" value="=">=</button>
+					<button class="btn minus" value="-">-</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
